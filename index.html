@@ -6,6 +6,17 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p id="demo"></p>
+        <div class="intro">
+            <h1 id="date"></h1>
+                <p id="demo"></p>
+                <p id="expli">
+                    ...para terminar la primera parte del segundo cuatri del horror.
+                </p>
+                <br>
+                <p>si tenes otra fecha</p>
+                <input id="myDate" type="date">
+                <button onclick="window.initializeClock('demo', 'myDate')">Start</button>
+                <div id="clockdiv"> </div>
+        </div>
     </body>
 </html>
