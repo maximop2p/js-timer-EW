@@ -39,7 +39,6 @@ window.getTimeRemaining = function(endtime) {
   }
   
 window.initializeClock = function(clockId, dateId) {
-        clearInterval(timeinterval);
       var clock = document.getElementById(clockId);
       var deadline = document.getElementById(dateId).value;
 
