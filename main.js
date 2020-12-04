@@ -11,7 +11,7 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-    document.getElementById("demo").innerHTML = days + " dias, " + hours + " horas y " + minutes + " minutos.";
+    document.getElementById("demo").innerHTML = days + " days, " + hours + " hours and " + minutes + " minutes.";
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHtml = "done";
